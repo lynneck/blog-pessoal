@@ -1,6 +1,7 @@
 .postModeloContainer {
     color: var(--cor-fonte-post);
     position: relative;
+    
 }
 
 .fotoCapa,
@@ -10,13 +11,14 @@
 }
 
 .fotoCapa {
-    width: 90%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
-    position: relative;
+    position: absolute;
     top: 0;
     z-index: -1;
+
 }
 
 .titulo {
@@ -25,8 +27,8 @@
     font-size: 4rem;
     display: flex;
     align-items: center;
-    position: relative;
-    top: -135px;
+   
+   
 }
 
 .postConteudoContainer {
